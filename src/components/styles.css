@@ -44,6 +44,11 @@ h2 {
     font-weight: 500;
 }
 
+a {
+    color: var(--navy);
+    text-decoration: none;
+}
+
 /*CANDLE PAGE*/
 
 .CandlePage {
