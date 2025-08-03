@@ -1,0 +1,98 @@
+/*
+    Some style rules:
+    - padding oversized: 5%
+    - padding normal: 8%
+
+    - font: font-family: "Nata Sans", sans-serif;
+*/
+
+:root {
+    --navy: #001029;
+}
+
+/*HEADER*/
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 6px solid var(--navy);
+    padding: 10px 5%;
+    height: 90px;
+}
+
+.Header div{
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.Header .center {
+    margin-bottom: 0;
+}
+
+h1 {
+    color: var(--navy);
+    font-family: "Nata Sans", sans-serif;
+    font-weight: 500;
+    font-size: 2.5em
+}
+
+h2 {
+    font-family: "Nata Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/*CANDLE PAGE*/
+
+.CandlePage {
+    width: 100%;
+    display: flex;
+    padding: 0 5%;
+}
+
+.left {
+    /*border: 1px solid blue;*/
+    width: 70%;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    display: flex;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.right {
+    /*border: 1px solid pink;*/
+    padding: 40px 0 0 20px;
+    width: 30%;
+    text-align: right;
+}
+
+.right h2 {
+    font-size: 1.8em;
+}
+
+.right p {
+    font-family: "Nata Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px 0;
+}
+
+.left .column {
+    /*border: 1px solid red;*/
+    width: 50%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left .column img {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
+    /*border: 1px solid green;*/
+}
