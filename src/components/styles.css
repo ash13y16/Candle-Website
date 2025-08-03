@@ -101,3 +101,48 @@ a {
     border-radius: 10px;
     /*border: 1px solid green;*/
 }
+
+/*CONTACT PAGE*/
+
+.ContactPage {
+    padding: 40px 8%;
+    height: calc(100vh - 90px);
+    display: flex;
+}
+
+.ContactPage h1 {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: grid;
+    text-align: center;
+    place-content: center;
+    background-color: var(--navy);
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.ContactPage h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.ContactPage p {
+    height: 150px;
+    border-left: 2px solid var(--navy);
+    margin: 10px 25px;
+    padding: 0 40px;
+}
+
+.stepContainer {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+.stepContCont {
+    margin: auto 0;
+}
