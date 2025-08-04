@@ -9,8 +9,10 @@ export default function ContactPage() {
                     <h1>1</h1><h2>CHOOSE</h2>
                 </div>
                 <p>
-                    Decide which candle(s) you would like to purchase, and find their order number. The order number is
+                    Decide which candle you would like to purchase, and find their order number. The order number is
                     a hashtag (#) followed by a 6 digit number.
+                    <br/><br/>
+                    Want to request something specific? Send a text, email or dm with the request!
                 </p>
 
                 <div className={'stepContainer'}>
@@ -18,7 +20,7 @@ export default function ContactPage() {
                     {/*- - - - - - - - - >*/}
                 </div>
                 <p>
-                    Send a text, email or dm to any of the listed contact info. Include the order number of the candle(s)
+                    Send a text, email or dm to any of the listed contact info. Include the order number for the candle
                     you would like to purchase.
                 </p>
 
