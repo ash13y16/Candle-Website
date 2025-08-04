@@ -130,6 +130,12 @@ a {
     font-weight: 400;
 }
 
+.ContactPage h3 {
+    font-family: "Nata Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
 .ContactPage p {
     height: 150px;
     border-left: 2px solid var(--navy);
@@ -145,4 +151,22 @@ a {
 
 .stepContCont {
     margin: auto 0;
+    height: 550px;
 }
+
+.infoCont {
+    margin-left: 65px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    padding: 0;
+}
+
